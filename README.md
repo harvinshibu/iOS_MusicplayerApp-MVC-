@@ -7,11 +7,6 @@ iOS Music Player.
 
 <!-- ![Showcase](https://i.imgur.com/8qHu66J.png) -->
 
-# Links
-
-[Twitter](https://twitter.com/nuclear_player)
-
-
 ## What is this?
 
 nuhayMusic is a MusicPlayer iOS app created using MVC architecture. 
@@ -31,6 +26,6 @@ nuhayMusic is a MusicPlayer iOS app created using MVC architecture.
 ## Screenshots
 This will be updated as the program evolves.
 
-![Music View](https://i.imgur.com/1py8V4u.png)
+![Music View](https://i.imgur.com/1py8V4u.png = 500x1084)
 
-![Music List](https://i.imgur.com/mb99NLq.png)
+![Music List](https://i.imgur.com/mb99NLq.png = 500x1084)
