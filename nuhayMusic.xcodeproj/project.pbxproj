@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		974826BD29137620007ADD5B /* TrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974826BC29137620007ADD5B /* TrackModel.swift */; };
+		974826BF291376CA007ADD5B /* TrackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974826BE291376CA007ADD5B /* TrackList.swift */; };
+		974826C129137BEC007ADD5B /* MusicListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974826C029137BEC007ADD5B /* MusicListTableViewCell.swift */; };
+		974826C329138170007ADD5B /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974826C229138170007ADD5B /* SelectViewController.swift */; };
+		974826D22913A7BE007ADD5B /* Hymn_Coldplay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 974826C42913A7BE007ADD5B /* Hymn_Coldplay.mp3 */; };
+		974826D32913A7BE007ADD5B /* Take_Me_to_Church.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 974826C52913A7BE007ADD5B /* Take_Me_to_Church.mp3 */; };
+		974826D42913A7BE007ADD5B /* All_I_Want.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 974826C62913A7BE007ADD5B /* All_I_Want.mp3 */; };
+		974826D52913A7BE007ADD5B /* We_Dont_Talk_Anymore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 974826C72913A7BE007ADD5B /* We_Dont_Talk_Anymore.mp3 */; };
+		974826D62913A7BE007ADD5B /* Counting_Stars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 974826C82913A7BE007ADD5B /* Counting_Stars.mp3 */; };
+		974826D82913A7BE007ADD5B /* Lucid_Dreams.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 974826CA2913A7BE007ADD5B /* Lucid_Dreams.mp3 */; };
+		974826D92913A7BE007ADD5B /* Montero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 974826CB2913A7BE007ADD5B /* Montero.mp3 */; };
+		974826DA2913A7BE007ADD5B /* Love_Story.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 974826CC2913A7BE007ADD5B /* Love_Story.mp3 */; };
+		974826DB2913A7BE007ADD5B /* SAD.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 974826CD2913A7BE007ADD5B /* SAD.mp3 */; };
+		974826DC2913A7BE007ADD5B /* Let_Her_Go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 974826CE2913A7BE007ADD5B /* Let_Her_Go.mp3 */; };
+		974826DD2913A7BE007ADD5B /* Let_it_go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 974826CF2913A7BE007ADD5B /* Let_it_go.mp3 */; };
+		974826DE2913A7BE007ADD5B /* Waiting_for_love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 974826D02913A7BE007ADD5B /* Waiting_for_love.mp3 */; };
+		974826DF2913A7BE007ADD5B /* Gangstas_Paradise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 974826D12913A7BE007ADD5B /* Gangstas_Paradise.mp3 */; };
+		974826E12913CE2F007ADD5B /* I_Aint_Worried.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 974826E02913CE2F007ADD5B /* I_Aint_Worried.mp3 */; };
+		97917E6D29122C86007F9C2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97917E6C29122C86007F9C2C /* AppDelegate.swift */; };
+		97917E6F29122C86007F9C2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97917E6E29122C86007F9C2C /* SceneDelegate.swift */; };
+		97917E7129122C86007F9C2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97917E7029122C86007F9C2C /* ViewController.swift */; };
+		97917E7429122C86007F9C2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97917E7229122C86007F9C2C /* Main.storyboard */; };
+		97917E7629122C87007F9C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97917E7529122C87007F9C2C /* Assets.xcassets */; };
+		97917E7929122C87007F9C2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97917E7729122C87007F9C2C /* LaunchScreen.storyboard */; };
+		97917E8429122C87007F9C2C /* nuhayMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97917E8329122C87007F9C2C /* nuhayMusicTests.swift */; };
+		97917E8E29122C87007F9C2C /* nuhayMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97917E8D29122C87007F9C2C /* nuhayMusicUITests.swift */; };
+		97917E9029122C87007F9C2C /* nuhayMusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97917E8F29122C87007F9C2C /* nuhayMusicUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97917E8029122C87007F9C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97917E6129122C86007F9C2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97917E6829122C86007F9C2C;
+			remoteInfo = nuhayMusic;
+		};
+		97917E8A29122C87007F9C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97917E6129122C86007F9C2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97917E6829122C86007F9C2C;
+			remoteInfo = nuhayMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		974826BC29137620007ADD5B /* TrackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackModel.swift; sourceTree = "<group>"; };
+		974826BE291376CA007ADD5B /* TrackList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackList.swift; sourceTree = "<group>"; };
+		974826C029137BEC007ADD5B /* MusicListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListTableViewCell.swift; sourceTree = "<group>"; };
+		974826C229138170007ADD5B /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		974826C42913A7BE007ADD5B /* Hymn_Coldplay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Hymn_Coldplay.mp3; path = ../../../../Downloads/Hymn_Coldplay.mp3; sourceTree = "<group>"; };
+		974826C52913A7BE007ADD5B /* Take_Me_to_Church.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Take_Me_to_Church.mp3; path = ../../../../Downloads/Take_Me_to_Church.mp3; sourceTree = "<group>"; };
+		974826C62913A7BE007ADD5B /* All_I_Want.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = All_I_Want.mp3; path = ../../../../Downloads/All_I_Want.mp3; sourceTree = "<group>"; };
+		974826C72913A7BE007ADD5B /* We_Dont_Talk_Anymore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = We_Dont_Talk_Anymore.mp3; path = ../../../../Downloads/We_Dont_Talk_Anymore.mp3; sourceTree = "<group>"; };
+		974826C82913A7BE007ADD5B /* Counting_Stars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Counting_Stars.mp3; path = ../../../../Downloads/Counting_Stars.mp3; sourceTree = "<group>"; };
+		974826CA2913A7BE007ADD5B /* Lucid_Dreams.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Lucid_Dreams.mp3; path = ../../../../Downloads/Lucid_Dreams.mp3; sourceTree = "<group>"; };
+		974826CB2913A7BE007ADD5B /* Montero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Montero.mp3; path = ../../../../Downloads/Montero.mp3; sourceTree = "<group>"; };
+		974826CC2913A7BE007ADD5B /* Love_Story.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Love_Story.mp3; path = ../../../../Downloads/Love_Story.mp3; sourceTree = "<group>"; };
+		974826CD2913A7BE007ADD5B /* SAD.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SAD.mp3; path = ../../../../Downloads/SAD.mp3; sourceTree = "<group>"; };
+		974826CE2913A7BE007ADD5B /* Let_Her_Go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Let_Her_Go.mp3; path = ../../../../Downloads/Let_Her_Go.mp3; sourceTree = "<group>"; };
+		974826CF2913A7BE007ADD5B /* Let_it_go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Let_it_go.mp3; path = ../../../../Downloads/Let_it_go.mp3; sourceTree = "<group>"; };
+		974826D02913A7BE007ADD5B /* Waiting_for_love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Waiting_for_love.mp3; path = ../../../../Downloads/Waiting_for_love.mp3; sourceTree = "<group>"; };
+		974826D12913A7BE007ADD5B /* Gangstas_Paradise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Gangstas_Paradise.mp3; path = ../../../../Downloads/Gangstas_Paradise.mp3; sourceTree = "<group>"; };
+		974826E02913CE2F007ADD5B /* I_Aint_Worried.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = I_Aint_Worried.mp3; path = ../../../../Downloads/I_Aint_Worried.mp3; sourceTree = "<group>"; };
+		97917E6929122C86007F9C2C /* nuhayMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nuhayMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97917E6C29122C86007F9C2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97917E6E29122C86007F9C2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		97917E7029122C86007F9C2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97917E7329122C86007F9C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97917E7529122C87007F9C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97917E7829122C87007F9C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97917E7A29122C87007F9C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97917E7F29122C87007F9C2C /* nuhayMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nuhayMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97917E8329122C87007F9C2C /* nuhayMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuhayMusicTests.swift; sourceTree = "<group>"; };
+		97917E8929122C87007F9C2C /* nuhayMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nuhayMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97917E8D29122C87007F9C2C /* nuhayMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuhayMusicUITests.swift; sourceTree = "<group>"; };
+		97917E8F29122C87007F9C2C /* nuhayMusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuhayMusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97917E6629122C86007F9C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97917E7C29122C87007F9C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97917E8629122C87007F9C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97917E6029122C86007F9C2C = {
+			isa = PBXGroup;
+			children = (
+				97917E6B29122C86007F9C2C /* nuhayMusic */,
+				97917E8229122C87007F9C2C /* nuhayMusicTests */,
+				97917E8C29122C87007F9C2C /* nuhayMusicUITests */,
+				97917E6A29122C86007F9C2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97917E6A29122C86007F9C2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97917E6929122C86007F9C2C /* nuhayMusic.app */,
+				97917E7F29122C87007F9C2C /* nuhayMusicTests.xctest */,
+				97917E8929122C87007F9C2C /* nuhayMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97917E6B29122C86007F9C2C /* nuhayMusic */ = {
+			isa = PBXGroup;
+			children = (
+				974826D02913A7BE007ADD5B /* Waiting_for_love.mp3 */,
+				974826C72913A7BE007ADD5B /* We_Dont_Talk_Anymore.mp3 */,
+				974826C42913A7BE007ADD5B /* Hymn_Coldplay.mp3 */,
+				974826CF2913A7BE007ADD5B /* Let_it_go.mp3 */,
+				974826D12913A7BE007ADD5B /* Gangstas_Paradise.mp3 */,
+				974826C52913A7BE007ADD5B /* Take_Me_to_Church.mp3 */,
+				974826CA2913A7BE007ADD5B /* Lucid_Dreams.mp3 */,
+				974826C62913A7BE007ADD5B /* All_I_Want.mp3 */,
+				974826CB2913A7BE007ADD5B /* Montero.mp3 */,
+				974826C82913A7BE007ADD5B /* Counting_Stars.mp3 */,
+				974826E02913CE2F007ADD5B /* I_Aint_Worried.mp3 */,
+				974826CE2913A7BE007ADD5B /* Let_Her_Go.mp3 */,
+				974826CC2913A7BE007ADD5B /* Love_Story.mp3 */,
+				974826CD2913A7BE007ADD5B /* SAD.mp3 */,
+				974826BE291376CA007ADD5B /* TrackList.swift */,
+				97917E6C29122C86007F9C2C /* AppDelegate.swift */,
+				97917E6E29122C86007F9C2C /* SceneDelegate.swift */,
+				97917E7029122C86007F9C2C /* ViewController.swift */,
+				974826C229138170007ADD5B /* SelectViewController.swift */,
+				974826BC29137620007ADD5B /* TrackModel.swift */,
+				97917E7229122C86007F9C2C /* Main.storyboard */,
+				974826C029137BEC007ADD5B /* MusicListTableViewCell.swift */,
+				97917E7529122C87007F9C2C /* Assets.xcassets */,
+				97917E7729122C87007F9C2C /* LaunchScreen.storyboard */,
+				97917E7A29122C87007F9C2C /* Info.plist */,
+			);
+			path = nuhayMusic;
+			sourceTree = "<group>";
+		};
+		97917E8229122C87007F9C2C /* nuhayMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				97917E8329122C87007F9C2C /* nuhayMusicTests.swift */,
+			);
+			path = nuhayMusicTests;
+			sourceTree = "<group>";
+		};
+		97917E8C29122C87007F9C2C /* nuhayMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97917E8D29122C87007F9C2C /* nuhayMusicUITests.swift */,
+				97917E8F29122C87007F9C2C /* nuhayMusicUITestsLaunchTests.swift */,
+			);
+			path = nuhayMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97917E6829122C86007F9C2C /* nuhayMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97917E9329122C87007F9C2C /* Build configuration list for PBXNativeTarget "nuhayMusic" */;
+			buildPhases = (
+				97917E6529122C86007F9C2C /* Sources */,
+				97917E6629122C86007F9C2C /* Frameworks */,
+				97917E6729122C86007F9C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nuhayMusic;
+			productName = nuhayMusic;
+			productReference = 97917E6929122C86007F9C2C /* nuhayMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97917E7E29122C87007F9C2C /* nuhayMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97917E9629122C87007F9C2C /* Build configuration list for PBXNativeTarget "nuhayMusicTests" */;
+			buildPhases = (
+				97917E7B29122C87007F9C2C /* Sources */,
+				97917E7C29122C87007F9C2C /* Frameworks */,
+				97917E7D29122C87007F9C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97917E8129122C87007F9C2C /* PBXTargetDependency */,
+			);
+			name = nuhayMusicTests;
+			productName = nuhayMusicTests;
+			productReference = 97917E7F29122C87007F9C2C /* nuhayMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97917E8829122C87007F9C2C /* nuhayMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97917E9929122C87007F9C2C /* Build configuration list for PBXNativeTarget "nuhayMusicUITests" */;
+			buildPhases = (
+				97917E8529122C87007F9C2C /* Sources */,
+				97917E8629122C87007F9C2C /* Frameworks */,
+				97917E8729122C87007F9C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97917E8B29122C87007F9C2C /* PBXTargetDependency */,
+			);
+			name = nuhayMusicUITests;
+			productName = nuhayMusicUITests;
+			productReference = 97917E8929122C87007F9C2C /* nuhayMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97917E6129122C86007F9C2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					97917E6829122C86007F9C2C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					97917E7E29122C87007F9C2C = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 97917E6829122C86007F9C2C;
+					};
+					97917E8829122C87007F9C2C = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 97917E6829122C86007F9C2C;
+					};
+				};
+			};
+			buildConfigurationList = 97917E6429122C86007F9C2C /* Build configuration list for PBXProject "nuhayMusic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97917E6029122C86007F9C2C;
+			productRefGroup = 97917E6A29122C86007F9C2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97917E6829122C86007F9C2C /* nuhayMusic */,
+				97917E7E29122C87007F9C2C /* nuhayMusicTests */,
+				97917E8829122C87007F9C2C /* nuhayMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97917E6729122C86007F9C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974826D62913A7BE007ADD5B /* Counting_Stars.mp3 in Resources */,
+				974826D42913A7BE007ADD5B /* All_I_Want.mp3 in Resources */,
+				97917E7929122C87007F9C2C /* LaunchScreen.storyboard in Resources */,
+				974826DD2913A7BE007ADD5B /* Let_it_go.mp3 in Resources */,
+				974826D32913A7BE007ADD5B /* Take_Me_to_Church.mp3 in Resources */,
+				974826D22913A7BE007ADD5B /* Hymn_Coldplay.mp3 in Resources */,
+				974826D92913A7BE007ADD5B /* Montero.mp3 in Resources */,
+				974826D82913A7BE007ADD5B /* Lucid_Dreams.mp3 in Resources */,
+				974826DF2913A7BE007ADD5B /* Gangstas_Paradise.mp3 in Resources */,
+				974826D52913A7BE007ADD5B /* We_Dont_Talk_Anymore.mp3 in Resources */,
+				974826E12913CE2F007ADD5B /* I_Aint_Worried.mp3 in Resources */,
+				97917E7629122C87007F9C2C /* Assets.xcassets in Resources */,
+				97917E7429122C86007F9C2C /* Main.storyboard in Resources */,
+				974826DA2913A7BE007ADD5B /* Love_Story.mp3 in Resources */,
+				974826DE2913A7BE007ADD5B /* Waiting_for_love.mp3 in Resources */,
+				974826DC2913A7BE007ADD5B /* Let_Her_Go.mp3 in Resources */,
+				974826DB2913A7BE007ADD5B /* SAD.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97917E7D29122C87007F9C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97917E8729122C87007F9C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97917E6529122C86007F9C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974826BF291376CA007ADD5B /* TrackList.swift in Sources */,
+				974826C129137BEC007ADD5B /* MusicListTableViewCell.swift in Sources */,
+				97917E7129122C86007F9C2C /* ViewController.swift in Sources */,
+				974826C329138170007ADD5B /* SelectViewController.swift in Sources */,
+				974826BD29137620007ADD5B /* TrackModel.swift in Sources */,
+				97917E6D29122C86007F9C2C /* AppDelegate.swift in Sources */,
+				97917E6F29122C86007F9C2C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97917E7B29122C87007F9C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97917E8429122C87007F9C2C /* nuhayMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97917E8529122C87007F9C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97917E9029122C87007F9C2C /* nuhayMusicUITestsLaunchTests.swift in Sources */,
+				97917E8E29122C87007F9C2C /* nuhayMusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97917E8129122C87007F9C2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97917E6829122C86007F9C2C /* nuhayMusic */;
+			targetProxy = 97917E8029122C87007F9C2C /* PBXContainerItemProxy */;
+		};
+		97917E8B29122C87007F9C2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97917E6829122C86007F9C2C /* nuhayMusic */;
+			targetProxy = 97917E8A29122C87007F9C2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97917E7229122C86007F9C2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97917E7329122C86007F9C2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97917E7729122C87007F9C2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97917E7829122C87007F9C2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97917E9129122C87007F9C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97917E9229122C87007F9C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97917E9429122C87007F9C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NS8JNF9ZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nuhayMusic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = harvin.nuhayMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97917E9529122C87007F9C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NS8JNF9ZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nuhayMusic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = harvin.nuhayMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97917E9729122C87007F9C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NS8JNF9ZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = harvin.nuhayMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nuhayMusic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nuhayMusic";
+			};
+			name = Debug;
+		};
+		97917E9829122C87007F9C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NS8JNF9ZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = harvin.nuhayMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nuhayMusic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nuhayMusic";
+			};
+			name = Release;
+		};
+		97917E9A29122C87007F9C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NS8JNF9ZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = harvin.nuhayMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nuhayMusic;
+			};
+			name = Debug;
+		};
+		97917E9B29122C87007F9C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NS8JNF9ZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = harvin.nuhayMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nuhayMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97917E6429122C86007F9C2C /* Build configuration list for PBXProject "nuhayMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97917E9129122C87007F9C2C /* Debug */,
+				97917E9229122C87007F9C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97917E9329122C87007F9C2C /* Build configuration list for PBXNativeTarget "nuhayMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97917E9429122C87007F9C2C /* Debug */,
+				97917E9529122C87007F9C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97917E9629122C87007F9C2C /* Build configuration list for PBXNativeTarget "nuhayMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97917E9729122C87007F9C2C /* Debug */,
+				97917E9829122C87007F9C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97917E9929122C87007F9C2C /* Build configuration list for PBXNativeTarget "nuhayMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97917E9A29122C87007F9C2C /* Debug */,
+				97917E9B29122C87007F9C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97917E6129122C86007F9C2C /* Project object */;
+}
