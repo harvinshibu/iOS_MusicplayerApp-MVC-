@@ -1,8 +1,5 @@
 # nuhayMusic - iOS Musicplayer
 
-<!-- # ![nuclear](https://i.imgur.com/oT1006i.png)  -->
-[![nuhayMusic](https://snapcraft.io//nuclear/badge.svg)](https://snapcraft.io/nuclear)
-
 iOS Music Player.
 
 <!-- ![Showcase](https://i.imgur.com/8qHu66J.png) -->
