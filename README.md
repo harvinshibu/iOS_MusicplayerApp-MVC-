@@ -33,26 +33,6 @@ It's also focusing more on audio. Imagine Spotify which you don't have to pay fo
 ## Screenshots
 This will be updated as the program evolves.
 
-![Album Search](https://i.imgur.com/idFVnAF.png)
+![Music View](https://drive.google.com/file/d/1opR3xhyOSHoM4SZ2OeVYUMi_jSdSU-wK/view?usp=share_link)
 
-![Album Display](https://i.imgur.com/Kvzo3q7.png)
-
-![Artist View](https://i.imgur.com/imBLYl3.png)
-
-![Dashboard Best New Music](https://i.imgur.com/bMDrR4M.png)
-
-![Dashboard Genres](https://i.imgur.com/g0aCmKx.png)
-
-![Playlist View](https://i.imgur.com/2VMXHDC.png)
-
-![Lyrics View](https://i.imgur.com/7e3DJKJ.png)
-
-![Equalizer View](https://i.imgur.com/WreRL0w.png)
-
-## License
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-## Attributions
-Uses SponsorBlock data licensed used under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) from https://sponsor.ajay.app/.
-
+![Music List](https://drive.google.com/file/d/1oq8KMp3iBnkyLfAxtnhMwT6hL-U7Ua-C/view?usp=share_link)
