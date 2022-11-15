@@ -26,6 +26,8 @@ nuhayMusic is a MusicPlayer iOS app created using MVC architecture.
 ## Screenshots
 This will be updated as the program evolves.
 
-![Music View](https://i.imgur.com/1py8V4u.png = 500x1084)
+<h3>Music List</h3>
+<img src="https://i.imgur.com/mb99NLq.png" width="300" height="650">
 
-![Music List](https://i.imgur.com/mb99NLq.png = 500x1084)
+<h3>Music View</h3>
+<img src="https://i.imgur.com/1py8V4u.png" width="300" height="650">
